@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawHorizontalTrack=""
+        />
+<!--
+    XML属性                              Java方法                                  说明
+    alpha                                setAlpha(float)                           透明度
+    background                           setBackgroundResource(int)                背景颜色
+    clickable                            setClickable(boolean)                     可否单击
+    contentDescription                   setContentDescription(CharSequence)       描述信息
+    drawingCacheQuality                  setDrawingCacheQuality(int)               绘制缓存的颜色质量
+    fadeScrollbars                       setScrollbarFadingEnabled(boolean)        不使用滚动条时，是否淡出滚动
+    fadingEdge                           setVerticalFadingEdgeLength()             淡出边界的长度
+    focusable                            setFocusable(boolean)                     是否可得焦点
+    focusableInTouchMode                 setFocusableInTouchMode(boolean)          触屏模式时是否可得焦点
+    id                                   setId(int)                                设定组件唯一ID，通常配合findViewById来使用
+    isScrollContainer                    setScrollContainer(boolean)               是否可作为可滚动组件使用
+    keepScreenOn                         setKeepScreenOn(boolean)                  是否强制手机屏幕一直打开
+    longClickable                        setLongClickable(boolean)                 是否可长按
+    minHeight                            setMinimumHeight(int)                     组件最小的高度
+    minWidth                             setMinimumWidth(int)                      组件最小的宽度
+    nextFocusDown                        setNextFocusDownId(int)                   向下键时焦点位置
+    nextFocusLeft                        setNextFocusLeftId(int)                   向左键时焦点位置
+    nextFocusRight                       setNextFocusRightId(int)                  向右键焦点位置
+    nextFocusUp                          setNextFocusUp(int)                       向上键焦点位置
+    onClick                              ###                                       单击时触发的事件
+    padding                              setPadding(int,int,int,int)               组件四边填充区域大小
+    paddingButton                        setPaddingButton(int)                     组件下边填充区域大小
+    paddingLeft                          setPaddingLeft(int)                       组件左边填充区域大小
+    paddingRight                         setPaddingRight(int)                      组件右边填充区域大小
+    paddingTop                           setPaddingTop(int)                        组件上边填充区域大小
+    rotation                             setRotation(float)                        组件旋转的角度
+    rotationX                            setRotationX(float)                       组件绕X轴旋转角度
+    rotationY                            setRotationY(float)                       组件绕Y轴旋转角度
+    saveEnabled                          setSaveEnabled(boolean)                   组件内容可否保存
+    scaleX                               setScaleX(float)                          水平方向的缩放比
+    scaleY                               setScaleY(float)                          垂直方向的缩放比
+    scrollX                              setScrollX(float)                         初始化时水平方向的滚动偏移
+    scrollY                              setScrollY(float)                         初始化时移垂直方向的滚动偏
+    scrollbarAlwaysDrawHorizontalTrack   ###                                       是否总是水平方向滚动条轨道
+    scrollbarAlwaysDrawVerticalTrack     ###                                       是否总是垂直方向滚动条轨道
+    scrollbarDefaultDelayBeforeFade      setScrollBarDefaultDelayBeforeFade(int)   滚动条淡出前延迟的毫秒数
+    scrollbarFadeDuration                setScrollBarFadeDuration(int)             滚动条隐藏过程需求多少秒
+    scrollbarSize                        setScrollBarSize(int)                     水平、垂直滚动条大小
+    scrollbarStyle                       setScrollBarStyle(int)                    共有几个风格可选：insideOverlay、insideInset、outsideOverlay、outsideInset
+    scrollbarThumbHorizontal             ###                                       水平滚动条滑块对应的Drawable对象
+    scrollbarThumbVertical               ###                                       垂直滚动条滑块对应的Drawable对象
+    scrollbarTrackHorizontal             ###                                       水平滚动条轨道对应的Drawable对象
+    scrollbarTrackVertical               ###                                       垂直滚动条轨道对应的Drawable对象
+    scrollbars                           ###                                       显示滚动条：none、horizontal、vertical三个值
+    soundEffectsEnabled                  setSoundEffectsEnabled(boolean)           单击时是否有音效输出
+    tag                                  ###                                       为组件设定一个字符串tag，通过View的getTag()获得此字符串，或findViewWithTag()查找此组件
+    transformPivotX                      setPivotX(float)                          组件旋转时旋转中心X坐标
+    transformPivotY                      setPivotY(float)                          组件旋转时旋转中心Y坐标
+    translationX                         setTranslationX(float)                    组件在X轴方向上的位移
+    translationY                         setTranslationY(float)                    组件在Y轴方向上的位移
+    visibility                           setVisibility(int)                        是否可见
+-->
+</LinearLayout>
